@@ -1,0 +1,79 @@
+*{
+    padding:0;
+    margin:0;
+    -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+#container{
+    width: 300px;
+    height: 250px;
+    top:0;
+    left:0;
+    perspective: 1500px;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: #1C185B;
+}
+.slide{
+    overflow: hidden;
+}
+.slide img{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.slide .right_woman{
+    left: 46px;
+}
+.slide .left_man{
+    left: auto;
+    right: 25px;
+}
+.navigation{
+    display: none;
+}
+
+.controls{
+    top: 27% !important;
+    opacity: 0;
+}
+#invis{
+    width: 300px;
+    height: 200px;
+    background-color: brown;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+}
+#hand img{
+    width: 31px !important;
+    height: 30px !important;
+}
+
+#video{
+    width: 300px;
+    height: 250px;
+    left: 0px;
+    position: relative;
+}
+.video-controls{
+    top: -36px;
+    position: relative;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.sound{
+    float: right;
+    background: none;
+    color: white;
+    border: none;
+}
+.toggle{
+    background: none;
+    color: white;
+    border: none;
+}
+/*side background color*/
